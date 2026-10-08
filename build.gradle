@@ -1,1 +1,7 @@
-plugins { id 'com.android.application' version '8.7.3' apply false }
+plugins { id 'com.android.application' }
+
+android { namespace 'com.liason.scalper'; compileSdk 35
+ defaultConfig { applicationId 'com.liason.scalper'; minSdk 23; targetSdk 35; versionCode 2; versionName '2.0' }
+}
+
+dependencies { implementation 'androidx.appcompat:appcompat:1.7.0' }
